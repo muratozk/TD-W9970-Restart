@@ -43,7 +43,7 @@ alert = browser.switch_to.alert
 time.sleep(2)
 
 # Allowed alert message
-alert.accept() # or decline
+alert.accept() # or dismiss
 time.sleep(5)
 
 browser.close()
